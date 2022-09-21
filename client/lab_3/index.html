@@ -24,11 +24,17 @@
         </div>
         <main class="box right_section">
             <h2>Image Carousel</h2>
-            <div id="images" class="grid">
-                <img src="images/ascend.jpeg" alt="Album cover of Ascend by Illenium" />
-                <img src="images/circles.jpeg" alt="Album cover of Circles by Mac Miller" />
-                <img src="images/GothBabe.jpeg" alt="Cover art for Goth Babe" />
-                <img src="images/UglyIsBeautiful.jpeg" alt="Album cover of Ugly is Beautiful" />                </div>
+            <div class="carousel">
+                <button class="prev">prev</button>
+                <div id="images" class="slides">
+                  
+                    <div class="carousel_item"><img id="slide_1" src="images/ascend.jpeg" alt="Album cover of Ascend by Illenium" /></div>
+                    <div class="carousel_item"><img id="slide_2" src="images/circles.jpeg" alt="Album cover of Circles by Mac Miller" /></div>
+                    <div class="carousel_item"><img id="slide_3" src="images/GothBabe.jpeg" alt="Cover art for Goth Babe" /></div>
+                    <div class="carousel_item"><img id="slide_4" src="images/UglyIsBeautiful.jpeg" alt="Album cover of Ugly is Beautiful" /></div>               
+                </div>
+                <button class="next">next</button>
+            </div>
             <div id="Images-Description" class="box">
                     Above are images of some of the listed album covers.
             </div>
@@ -40,8 +46,8 @@
             <a href="https://github.com/Jklehner" target="_blank" rel="noopener noreferrer">Jklehner</a>
         </footer>
     </div>
+    <script src="script.js"></script>
   </body>
-  
 </html>
 <!--
     Replace this with your working code from Lab 2, and include:
