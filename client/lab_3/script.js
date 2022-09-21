@@ -50,7 +50,7 @@ function moveToPrevSlide() {
     if not, set the slidePosition to the current position minus one
   */
   if (slidePosition === 0) {
-    slidePostion = totalSlides - 1;
+    slidePosition = totalSlides - 1;
   } else {
     slidePosition -= 1;
   }
